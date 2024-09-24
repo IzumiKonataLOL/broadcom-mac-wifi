@@ -19,7 +19,7 @@ install_broadcom_arch() {
 }
 
 case "$distro" in
-    "ubuntu"|"debian")
+    "ubuntu"|"debian"|"Linuxmint")
         install_broadcom_debian
         ;;
     "arch")
